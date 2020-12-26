@@ -10,6 +10,13 @@
 #include <iostream>
 using namespace std;
 
+#include "Class1.h"
+
+
 #endif /*_CLASS1_H_ */
+
+
+
+
 
 
