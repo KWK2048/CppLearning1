@@ -2,9 +2,9 @@
 //
 
 //#include <iostream>
-//using namespace std;
+//using namespace std;   //在h头文件中声明
 #include "CppLearning1.h"  //双引号！  //#include <xxx.h>后面不要接分号。
-
+#include "Class1.h"
 
 
 int print1()    //函数放在头文件中会出现报错：fatal error LNK1169: 找到一个或多个多重定义的符号  //声明和实现要分开，放在h和cpp
@@ -20,15 +20,50 @@ int print1()    //函数放在头文件中会出现报错：fatal error LNK1169:
 
 
 
+//int main()
+//{
+//	std::cout << "Hello World!\n";
+//	cout << "test upload to github\n";
+//	print1();
+//	return 0;
+//}
+
 int main()
 {
-	std::cout << "Hello World!\n";
-	cout << "test upload to github\n";
-	print1();
+	Class1 Box1;        // 声明 Box1，类型为 Box
+	Class1 Box2;        // 声明 Box2，类型为 Box
+	Class1 Box3;        // 声明 Box3，类型为 Box
+	double volume = 0.0;     // 用于存储体积
+
+	// box 1 详述
+	Box1.height = 5.0;
+	Box1.length = 6.0;
+	Box1.breadth = 7.0;
+
+	// box 2 详述
+	Box2.height = 10.0;
+	Box2.length = 12.0;
+	Box2.breadth = 13.0;
+
+	// box 1 的体积
+	volume = Box1.height * Box1.length * Box1.breadth;
+	cout << "Box1 的体积：" << volume << endl;
+
+	// box 2 的体积
+	volume = Box2.height * Box2.length * Box2.breadth;
+	cout << "Box2 的体积：" << volume << endl;
+
+
+	// box 3 详述
+	Box3.set(16.0, 8.0, 12.0);
+	volume = Box3.get();
+	cout << "Box3 的体积：" << volume << endl;
+
+
+	 print1();  
+	
 	return 0;
 }
-
-
 
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
