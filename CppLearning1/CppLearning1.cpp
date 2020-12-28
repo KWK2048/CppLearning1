@@ -4,7 +4,7 @@
 //#include <iostream>
 //using namespace std;   //在h头文件中声明
 #include "CppLearning1.h"  //双引号！  //#include <xxx.h>后面不要接分号。
-
+#include "Bubble_Sort.h"
 
 
 int print1()    //函数放在头文件中会出现报错：fatal error LNK1169: 找到一个或多个多重定义的符号  //声明和实现要分开，放在h和cpp
@@ -27,6 +27,8 @@ void func1()
 
 int main()
 {
+
+	/* 
 	Class1 Box1;        // 声明 Box1，类型为 Box
 	Class1 Box2;        // 声明 Box2，类型为 Box
 	Class1 Box3;        // 声明 Box3，类型为 Box
@@ -57,8 +59,15 @@ int main()
 	cout << "Box3 的体积：" << volume << endl;
 
 
-	 print1();  
-	 func1();
+	 //print1();  
+	 //func1();
+	*/
+	
+
+	 Bubble_Sort BS1;
+	 BS1.getNum();
+	 BS1.sortArray();
+	 BS1.resultPrint();
 
 	return 0;
 }

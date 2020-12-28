@@ -24,9 +24,15 @@
     <ClCompile Include="Class1.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Bubble_Sort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Class1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Bubble_Sort.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

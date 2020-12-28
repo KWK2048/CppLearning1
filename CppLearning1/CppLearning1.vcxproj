@@ -151,11 +151,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Bubble_Sort.cpp" />
     <ClCompile Include="Class1.cpp" />
     <ClCompile Include="CppLearning1.h" />
     <ClCompile Include="CppLearning1.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Bubble_Sort.h" />
     <ClInclude Include="Class1.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
