@@ -155,10 +155,14 @@
     <ClCompile Include="Class1.cpp" />
     <ClCompile Include="CppLearning1.h" />
     <ClCompile Include="CppLearning1.cpp" />
+    <ClCompile Include="DirectInsert_Sort.cpp" />
+    <ClCompile Include="Quick_Sort.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Bubble_Sort.h" />
     <ClInclude Include="Class1.h" />
+    <ClInclude Include="DirectInsert_Sort.h" />
+    <ClInclude Include="Quick_Sort.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

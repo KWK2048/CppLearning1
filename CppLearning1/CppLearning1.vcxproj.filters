@@ -27,12 +27,24 @@
     <ClCompile Include="Bubble_Sort.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Quick_Sort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectInsert_Sort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Class1.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Bubble_Sort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Quick_Sort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectInsert_Sort.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

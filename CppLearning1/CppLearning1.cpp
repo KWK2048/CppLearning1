@@ -5,6 +5,7 @@
 //using namespace std;   //在h头文件中声明
 #include "CppLearning1.h"  //双引号！  //#include <xxx.h>后面不要接分号。
 #include "Bubble_Sort.h"
+#include "DirectInsert_Sort.h"
 
 
 int print1()    //函数放在头文件中会出现报错：fatal error LNK1169: 找到一个或多个多重定义的符号  //声明和实现要分开，放在h和cpp
@@ -63,12 +64,21 @@ int main()
 	 //func1();
 	*/
 	
-
+/*
 	 Bubble_Sort BS1;
 	 BS1.getNum();
 	 BS1.sortArray();
 	 BS1.resultPrint();
+*/
 
+
+DirectInsert_Sort DI1;
+DI1.getNum();
+DI1.sortArray();
+DI1.resultPrint();
+
+
+		   
 	return 0;
 }
 

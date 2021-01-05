@@ -16,8 +16,7 @@ void Bubble_Sort::getNum() {
 
 void Bubble_Sort::sortArray() {
 	//输出, 按从小到大排列
-	//
-	
+	// 
 	for (int k = 0; k < n - 1; k++) {  //完整循环
 		for (int i = 0; i < n - 1-k; i++) {  //将最大数推向最远，下一次循环长度减1
 
@@ -29,8 +28,7 @@ void Bubble_Sort::sortArray() {
 			}
 		}
 	}
-
-
+	
 }
 
 
@@ -40,9 +38,8 @@ void Bubble_Sort::resultPrint() {
 
 	cout << "打印结果数组" << endl;
 	for (int i = 0; i < n;i++) {
-
 		cout << a[i] << endl;
-		cout << "  " << endl;
+		//cout << "  " << endl;
 	}
 
 }
