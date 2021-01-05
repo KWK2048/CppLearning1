@@ -65,13 +65,14 @@ int main()
 	*/
 	
 /*
+//冒泡法
 	 Bubble_Sort BS1;
 	 BS1.getNum();
 	 BS1.sortArray();
 	 BS1.resultPrint();
 */
 
-
+//直接插入法
 DirectInsert_Sort DI1;
 DI1.getNum();
 DI1.sortArray();
