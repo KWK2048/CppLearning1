@@ -106,6 +106,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\CPP_Lib\Eigen3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -156,12 +157,14 @@
     <ClCompile Include="CppLearning1.h" />
     <ClCompile Include="CppLearning1.cpp" />
     <ClCompile Include="DirectInsert_Sort.cpp" />
+    <ClCompile Include="KalmanFilter.cpp" />
     <ClCompile Include="Quick_Sort.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Bubble_Sort.h" />
     <ClInclude Include="Class1.h" />
     <ClInclude Include="DirectInsert_Sort.h" />
+    <ClInclude Include="KalmanFilter.h" />
     <ClInclude Include="Quick_Sort.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

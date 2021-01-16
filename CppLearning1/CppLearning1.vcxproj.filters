@@ -33,6 +33,9 @@
     <ClCompile Include="DirectInsert_Sort.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="KalmanFilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Class1.h">
@@ -45,6 +48,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="DirectInsert_Sort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="KalmanFilter.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

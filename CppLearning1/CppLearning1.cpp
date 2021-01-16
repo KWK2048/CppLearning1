@@ -7,6 +7,9 @@
 #include "Bubble_Sort.h"
 #include "DirectInsert_Sort.h"
 
+#include <Eigen/Dense>
+using namespace Eigen;     // 改成这样亦可 using Eigen::MatrixXd; 
+
 
 int print1()    //函数放在头文件中会出现报错：fatal error LNK1169: 找到一个或多个多重定义的符号  //声明和实现要分开，放在h和cpp
 { //这个函数要放在main前面，不然会报错？？？//函数在使用之前要声明
@@ -72,11 +75,24 @@ int main()
 	 BS1.resultPrint();
 */
 
+/*
 //直接插入法
 DirectInsert_Sort DI1;
 DI1.getNum();
 DI1.sortArray();
 DI1.resultPrint();
+*/
+
+	//测试eigen3矩阵库
+		MatrixXd m = MatrixXd::Random(3, 3);              //随机生成3*3的double型矩阵
+		m = (m + MatrixXd::Constant(3, 3, 1.2)) * 50;      //MatrixXd::Constant(3,3,1.2)表示生成3*3的double型矩阵，该矩阵所有元素均为1.2
+		cout << "m =" << endl << m << endl;
+		VectorXd v(3);        // 定义v为3*1的double型向量
+		v << 1, 2, 3;         // 向量赋值
+		cout << "v =" << endl << v << endl;
+		cout << "m * v =" << endl << m * v << endl;
+		system("pause");
+	//测试eigen3矩阵库
 
 
 		   
