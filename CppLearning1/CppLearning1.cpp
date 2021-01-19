@@ -6,8 +6,9 @@
 #include "CppLearning1.h"  //双引号！  //#include <xxx.h>后面不要接分号。
 #include "Bubble_Sort.h"
 #include "DirectInsert_Sort.h"
+#include "PID_Simple.h"
 
-#include <Eigen/Dense>
+#include <Eigen/Dense>    //使用前，需要将库文件添加路径： 在解决方案资源管理器中，右键项目名称，选择属性-->C/C++ -->常规-->附加包含目录
 using namespace Eigen;     // 改成这样亦可 using Eigen::MatrixXd; 
 
 
@@ -82,7 +83,12 @@ DI1.getNum();
 DI1.sortArray();
 DI1.resultPrint();
 */
+//简单PID
+	PID_Simple PIDS1;
+	PIDS1.InputNum();
+	PIDS1.OutputNum();
 
+/*
 	//测试eigen3矩阵库
 		MatrixXd m = MatrixXd::Random(3, 3);              //随机生成3*3的double型矩阵
 		m = (m + MatrixXd::Constant(3, 3, 1.2)) * 50;      //MatrixXd::Constant(3,3,1.2)表示生成3*3的double型矩阵，该矩阵所有元素均为1.2
@@ -93,7 +99,7 @@ DI1.resultPrint();
 		cout << "m * v =" << endl << m * v << endl;
 		system("pause");
 	//测试eigen3矩阵库
-
+*/
 
 		   
 	return 0;

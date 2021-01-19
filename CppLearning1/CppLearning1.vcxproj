@@ -158,6 +158,7 @@
     <ClCompile Include="CppLearning1.cpp" />
     <ClCompile Include="DirectInsert_Sort.cpp" />
     <ClCompile Include="KalmanFilter.cpp" />
+    <ClCompile Include="PID_Simple.cpp" />
     <ClCompile Include="Quick_Sort.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -166,6 +167,7 @@
     <ClInclude Include="DirectInsert_Sort.h" />
     <ClInclude Include="KalmanFilter.h" />
     <ClInclude Include="Quick_Sort.h" />
+    <ClInclude Include="PID_Simple.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

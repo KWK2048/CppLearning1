@@ -36,6 +36,9 @@
     <ClCompile Include="KalmanFilter.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="PID_Simple.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Class1.h">
@@ -51,6 +54,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="KalmanFilter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PID_Simple.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
