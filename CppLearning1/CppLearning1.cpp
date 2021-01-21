@@ -28,7 +28,20 @@ void func1()
 
 }
 
+//递归的方法，计算2的c次幂
+int tempValue; //存放计算过程值
+int mi2(int cc) {
+	
+	if (cc == 1) {
+	tempValue = 2;
+	}
+	else {//如果没有else，会使cc递减至负值---递归太深，或者int等类型不支持负值?。有Else时，cc==1使递归截止，直接跳转到return
+		tempValue = mi2(cc - 1) * 2;
+	}
 
+	return tempValue;
+
+};
 
 int main()
 {
@@ -83,10 +96,15 @@ DI1.getNum();
 DI1.sortArray();
 DI1.resultPrint();
 */
+/*
+
 //简单PID
 	PID_Simple PIDS1;
 	PIDS1.InputNum();
 	PIDS1.OutputNum();
+
+*/
+
 
 /*
 	//测试eigen3矩阵库
@@ -100,6 +118,11 @@ DI1.resultPrint();
 		system("pause");
 	//测试eigen3矩阵库
 */
+	
+	cout << "请输入一个整数N, 用来计算2的N次幂" <<endl;
+	int tempN;
+	cin >> tempN;
+	cout << "2的" << tempN << "次幂为  " << mi2(tempN) << endl;
 
 		   
 	return 0;

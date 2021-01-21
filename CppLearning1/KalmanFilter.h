@@ -14,6 +14,15 @@ using namespace Eigen;     // 改成这样亦可 using Eigen::MatrixXd;
 class KalmanFilter
 {
 public:
+	
+	Matrix2d F;
+	Vector2d X;
+	Vector2d B;
+	double Positon;
+	double Velocity;
+	double a;
+	double Q;
+	double Z;
 
 
 
