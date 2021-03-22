@@ -72,15 +72,19 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Users\Weikai.Kong\Documents\Visual Studio 2019\eigen-3.3.9;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Users\Weikai.Kong\Documents\Visual Studio 2019\eigen-3.3.9;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Users\Weikai.Kong\Documents\Visual Studio 2019\eigen-3.3.9;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Users\Weikai.Kong\Documents\Visual Studio 2019\eigen-3.3.9;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -158,6 +162,7 @@
     <ClCompile Include="CppLearning1.cpp" />
     <ClCompile Include="DirectInsert_Sort.cpp" />
     <ClCompile Include="KalmanFilter.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="PID_Simple.cpp" />
     <ClCompile Include="Quick_Sort.cpp" />
   </ItemGroup>
